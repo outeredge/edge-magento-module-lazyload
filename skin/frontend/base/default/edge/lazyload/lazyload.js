@@ -5,7 +5,7 @@ jQuery.fn.lazyload = function(pages, triggerHeight, toolbar){
     var el = this.selector,
         grid = jQuery(el),
         page = 2,
-        url = window.location.origin + window.location.pathname,
+        url = (window.location.origin || (window.location.protocol + '//' + window.location.hostname)) + window.location.pathname,
         lazyloading = false;
 
     function getQuery()
