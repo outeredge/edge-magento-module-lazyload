@@ -40,5 +40,5 @@ jQuery.fn.lazyload = function(pages, triggerHeight, toolbar){
     jQuery(window).scroll(function(){
         if(atTriggerPoint())
             lazyloadProducts();
-    });
+    }).trigger('scroll');
 };
