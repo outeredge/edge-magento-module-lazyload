@@ -1,0 +1,23 @@
+{
+    "name": "outeredge/edge-magento-module-lazyload",
+    "type": "magento-module",
+    "description": "Lazy Loading Products Module for Magento by outer/edge",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "support@outeredgeuk.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/code/local/Edge/Lazyload", "app/code/local/Edge/Lazyload"],
+            ["app/etc/modules/Edge_Lazyload.xml", "app/etc/modules/Edge_Lazyload.xml"],
+            ["app/design/frontend/base/default/layout/edge/lazyload.xml", "app/design/frontend/base/default/layout/edge/lazyload.xml"],
+            ["skin/frontend/base/default/edge/lazyload", "skin/frontend/base/default/edge/lazyload"]
+        ]
+    }
+}

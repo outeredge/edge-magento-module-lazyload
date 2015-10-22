@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Edge_Lazyload>
+            <version>1.0.0</version>
+        </Edge_Lazyload>
+    </modules>
+    <global>
+        <blocks>
+            <lazyload>
+                <class>Edge_Lazyload_Block</class>
+            </lazyload>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <lazyload>
+                    <file>edge/lazyload.xml</file>
+                </lazyload>
+            </updates>
+        </layout>
+    </frontend>
+</config>

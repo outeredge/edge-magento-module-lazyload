@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <lazyload>
+        <reference name="before_body_end">
+            <block type="lazyload/scripts" name="lazyload.scripts"/>
+        </reference>
+    </lazyload>
+    <catalog_category_default>
+        <update handle="lazyload"/>
+    </catalog_category_default>
+    <catalog_category_layered>
+        <update handle="lazyload"/>
+    </catalog_category_layered>
+</layout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Edge_Lazyload>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Edge_Base/>
+            </depends>
+        </Edge_Lazyload>
+    </modules>
+</config>
